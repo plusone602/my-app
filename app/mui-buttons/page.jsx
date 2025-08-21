@@ -22,7 +22,7 @@ export default function Page() {
 
   return (
     <div style={{ minHeight: '60vh', display: 'grid', placeItems: 'center', padding: 36 }}>
-      <a href="http://localhost:3000/">回首頁</a>
+      <a href="https://adbert-test.vercel.app">回首頁</a>
       <ButtonGroup orientation="vertical" variant="outlined" size="large" style={{ width: 240 }}>
         <StyledButton disabled={disabled} onClick={() => !disabled && dispatch(increment())}>
           {`CLICK: ${count}`}

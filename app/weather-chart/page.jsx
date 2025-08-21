@@ -50,7 +50,7 @@ export default function WeatherChart() {
 
   return (
     <div style={{ padding: 24, maxWidth: 960, margin: '0 auto' }}>
-      <a style={{ margin: 10 }} href="http://localhost:3000/">
+      <a style={{ margin: 10 }} href="https://adbert-test.vercel.app">
         回首頁
       </a>
 
